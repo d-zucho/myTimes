@@ -1,0 +1,184 @@
+
+/*------Beginning of Header-----*/
+
+header {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1250px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: mediumaquamarine;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+#logo-section {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+    
+}
+
+#main-nav #header-nav {
+    display: flex;
+}
+
+#header-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  
+
+}
+
+#header-nav ul li {
+    margin: 0 10px;
+}
+
+#header-nav ul li a {
+    color: black;
+}
+
+/*-----End of Header -----*/
+
+
+
+/*-----------MAIN CONTENT --------------------*/
+
+
+body {
+    margin: 0;
+    width: 70%;
+    overflow: scroll;
+    font-family: Georgia;
+}
+
+main {
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    height: 100%;
+    font-size: 17px;
+    margin-left: 0;
+
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.column-large {
+    width: 630px;
+    justify-content: center;
+
+}
+
+
+.column-medium {
+    min-width: 300px;
+    max-width: 400px;
+    justify-content: flex-start;
+    
+
+}
+
+.column-small {
+    width: 240px;
+    justify-content: flex-start;
+ 
+}
+
+.main-pic {
+    background: url("/pics/main-story.png");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.orca-picture {
+    background: url("/pics/fall-trees.png");
+    height: 300px;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.burger-pic {
+    background: url("/pics/hipster-cameraman.png");
+    height: 300px;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+}
+
+.fbi-pic {
+    background: url("/pics/cat-ceo.png");
+    height: 300px;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.main-story {
+    display: flex;
+    flex-direction: column;
+    border-bottom: .5px solid lightgray;
+}
+
+.orca-story {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    justify-content: space-between
+}
+
+.burger-story {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+
+}
+
+.secondary-stories {
+    display: flex;
+}
+
+#other-story-links {
+    background-color: gainsboro;
+    height: 300px;
+}
+
+#other-story-links span {
+    display: inline-block;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+}

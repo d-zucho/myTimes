@@ -1,0 +1,13 @@
+# Header
++ Header is flex container
++ logo and van are flex items
++ nav is list on inline-block spans
++ add style to header : font- Vardena, size: 14px; font-weight: bold;
++ logo color = MediumAquamarine
+
+# Main container (part 1)
+- add border around each div
+- The main content container is a flex container.
+- Each of the three columns is a flex item and flex container.
+- The left (large), middle (medium), and right (small) columns have the following widths: large(630)m(300)s(240)
+
