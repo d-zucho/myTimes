@@ -99,7 +99,7 @@ main {
 }
 
 .main-pic {
-    background: url("/pics/main-story.png");
+    background-image: url("../../pics/main-story.png");
     background-repeat: no-repeat;
     width: 600px;
     height: 300px;
@@ -110,7 +110,7 @@ main {
 }
 
 .orca-picture {
-    background: url("/pics/fall-trees.png");
+    background-image: url("../../pics/fall-trees.png");
     height: 300px;
     color: white;
     font-family: Georgia;
@@ -122,7 +122,7 @@ main {
 }
 
 .burger-pic {
-    background: url("/pics/hipster-cameraman.png");
+    background-image: url("../../pics/hipster-cameraman.png");
     height: 300px;
     color: white;
     font-family: Georgia;
@@ -135,7 +135,7 @@ main {
 }
 
 .fbi-pic {
-    background: url("/pics/cat-ceo.png");
+    background-image: url("../../pics/cat-ceo.png");
     height: 300px;
     color: white;
     font-family: Georgia;
