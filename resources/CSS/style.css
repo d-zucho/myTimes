@@ -99,7 +99,7 @@ main {
 }
 
 .main-pic {
-    background-image: url("../../pics/main-story.png");
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
     background-repeat: no-repeat;
     width: 600px;
     height: 300px;
